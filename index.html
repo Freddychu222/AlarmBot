@@ -20,7 +20,7 @@
 
   /* Header/logo Title */
   .header {
-    padding: 200px;
+    padding: 100px;
     text-align: center;
     background: #bc1a63;
     color: white;
@@ -109,17 +109,9 @@
 	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-database.js"></script>
   </head>
 <body onLoad="initClock()">
-    <div id="timedate">
-      <a id="mon">January</a>
-      <a id="d">1</a>,
-      <a id="y">0</a><br />
-      <a id="h">12</a> :
-      <a id="m">00</a>:
-      <a id="s">00</a>:
-      <a id="mi">000</a>
-    </div>
+
 <div class="header">
-  <h0>AlarmBot</h0>
+  <h1>AlarmBot</h1>
   <p>Your IoT wakeup buddy</p>
 </div>
 
@@ -127,7 +119,15 @@
   <a href="#" class="center">Link</a>
   <a href="#" class="center">Link</a>
 </div>
-
+<div id="timedate">
+  <a id="mon">January</a>
+  <a id="d">1</a>,
+  <a id="y">0</a><br />
+  <a id="h">12</a> :
+  <a id="m">00</a>:
+  <a id="s">00</a>:
+  <a id="mi">000</a>
+</div>
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
 
