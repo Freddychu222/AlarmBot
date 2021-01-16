@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Firebase</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <div class="row">
+        <div class="container">
+            <h2>Contact Form</h2>
+            <div class="alert alert-success success-message" style="display:none;">Form submitted successfully.</div>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="exampleFullName">Full Name</label>
+                    <input type="text" class="form-control fullname" id="exampleFullName" placeholder="Enter Full Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="exampleEmail">Email</label>
+                    <input type="email" class="form-control email" id="exampleEmail" placeholder="Enter Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="exampleSubject">Subject</label>
+                    <input type="text" class="form-control subject" id="exampleSubject" placeholder="Enter Subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="exampleMessage">Message</label>
+                    <textarea class="form-control message" id="exampleMessage" placeholder="Enter Message" cols="30" rows="10" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+    <script src="js/main.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyA7CgAZR_QH8aoqzWWkcjtzy8T6cZQHiuA",
+    authDomain: "tincan-bc739.firebaseapp.com",
+    databaseURL: "https://tincan-bc739-default-rtdb.firebaseio.com",
+    projectId: "tincan-bc739",
+    storageBucket: "tincan-bc739.appspot.com",
+    messagingSenderId: "599654864970",
+    appId: "1:599654864970:web:a967c766b8d98836e32eb3",
+    measurementId: "G-9NC4H8KSC1"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</body>
+</html>
