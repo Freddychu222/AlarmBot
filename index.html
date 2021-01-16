@@ -115,8 +115,16 @@
   <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-database.js"></script>
   </head>
-<body>
-
+<body onLoad="initClock()">
+    <div id="timedate">
+      <a id="mon">January</a>
+      <a id="d">1</a>,
+      <a id="y">0</a><br />
+      <a id="h">12</a> :
+      <a id="m">00</a>:
+      <a id="s">00</a>:
+      <a id="mi">000</a>
+    </div>
 <div class="header">
   <h0>AlarmBot</h0>
   <p>Your IoT wakeup buddy</p>
@@ -156,15 +164,4 @@
 </script>
 
 </body>
-<body onLoad="initClock()">
-
-  <div id="timedate">
-    <a id="mon">January</a>
-    <a id="d">1</a>,
-    <a id="y">0</a><br />
-    <a id="h">12</a> :
-    <a id="m">00</a>:
-    <a id="s">00</a>:
-    <a id="mi">000</a>
-  </div>
 </html>
