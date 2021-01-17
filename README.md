@@ -29,7 +29,7 @@ The bot portion of our design is controlled by the ESP32 microcontroller and int
 The code that runs on AlarmBot is under the respective Bot Module and Alarm Module folders in the Github repo. The Alarm module was connected to the Bot using two radio modules, implemented on the ESP32 with customized API libraries. By using the Firebase API, we connected the Bot module to a backend database,. This connection was done using the ESP-32 Wi-Fi connection API. The bot module was then connected to the database to a custom made website in HTML/CSS/js. The website is constantly updated by a live clock updated to the millisecond.
 
 ## Parts Used
-### Alarm Module:
+### Bot Module:
 * ESP32
 * OLED Display
 * Audio Piezo transducer
@@ -38,6 +38,7 @@ The code that runs on AlarmBot is under the respective Bot Module and Alarm Modu
 * Gear-motor x2
 * H-Bridge
 * Tin Can
+
 ![](https://github.com/Freddychu222/AlarmBot/blob/main/img/9.PNG?raw=true)
 
 
@@ -47,6 +48,7 @@ The code that runs on AlarmBot is under the respective Bot Module and Alarm Modu
 * nRF24 Radio Module
 * 4 Digit 7-Segment Display
 * Cardboard Box
+
 ![](https://github.com/Freddychu222/AlarmBot/blob/main/img/10.PNG?raw=true)
 
 ##Libraries Used
