@@ -5,6 +5,7 @@ Number.prototype.pad = function(n) {
 };
 
 function updateClock() {
+  
   var now = new Date();
   var milli = now.getMilliseconds(),
     sec = now.getSeconds(),
