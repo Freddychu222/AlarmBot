@@ -1,4 +1,5 @@
 
+
 // START CLOCK SCRIPT
 Number.prototype.pad = function(n) {
   for (var r = this.toString(); r.length < n; r = 0 + r);
