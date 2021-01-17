@@ -3,7 +3,7 @@
 
 ### Fred Chu, Lucas Wolter
 
-### [Website](https://freddychu222.github.io/AlarmBot/) | [Git Repo](https://github.com/Freddychu222/AlarmBot) | [DEMO] (https://www.youtube.com/watch?v=BlgNk7RgsMY) | [Presentation] (https://docs.google.com/presentation/d/1ObMXAebYAJUBGYW3-vbmgcVhR-EQM9kG7rVNcSX3umY/edit#slide=id.g4dfce81f19_0_45)
+### [Website](https://freddychu222.github.io/AlarmBot/) | [Git Repo](https://github.com/Freddychu222/AlarmBot) | [DEMO](https://www.youtube.com/watch?v=BlgNk7RgsMY) | [Presentation](https://docs.google.com/presentation/d/1ObMXAebYAJUBGYW3-vbmgcVhR-EQM9kG7rVNcSX3umY/edit#slide=id.g4dfce81f19_0_45)
 
 ## Why AlarmBot
 Waking up for classes in the middle of a pandemic can be a nightmare. With your bed so close to your zoom class, its harder now than ever to get up for that 8am lecture.
