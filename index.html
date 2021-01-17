@@ -164,7 +164,10 @@
 //process
       document.getElementById('insert').onClick = function() {
         Ready();
-        firebase.database().ref('time'+time0).set();
+        firebase.database().ref('time'+time0).set({
+          Time : tim0,
+          Message : msg0
+        });
       }
 
       </script>
