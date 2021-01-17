@@ -30,8 +30,6 @@ The code that runs on AlarmBot is under the respective Bot Module and Alarm Modu
 
 ## Parts Used
 ### Alarm Module:
-![](https://github.com/Freddychu222/AlarmBot/blob/main/img/9.PNG?raw=true)
-
 *ESP32
 *OLED Display
 *Audio Piezo transducer
@@ -40,19 +38,18 @@ The code that runs on AlarmBot is under the respective Bot Module and Alarm Modu
 *Gear-motor x2
 *H-Bridge
 *Tin Can
+![](https://github.com/Freddychu222/AlarmBot/blob/main/img/9.PNG?raw=true)
+
 
 ### Clock Module:
-![](https://github.com/Freddychu222/AlarmBot/blob/main/img/10.PNG?raw=true)
-
 *Arduino Nano
 *Speaker
 *nRF24 Radio Module
 *4 Digit 7-Segment Display
 *Cardboard Box
+![](https://github.com/Freddychu222/AlarmBot/blob/main/img/10.PNG?raw=true)
 
 ##Libraries Used
-![](https://github.com/Freddychu222/AlarmBot/blob/main/img/11.PNG?raw=true)
-
 * [IOXhop_FirebaseESP32](https://github.com/ioxhop/IOXhop_FirebaseESP32)
 * [MFRC522](https://github.com/miguelbalboa/rfid)
 * [ArduinoJson](https://arduinojson.org/)
@@ -64,6 +61,7 @@ The code that runs on AlarmBot is under the respective Bot Module and Alarm Modu
 *[SevSeg] (https://www.arduino.cc/reference/en/libraries/sevseg/)
 * pitches (labelled notes for ease of use with speaker)
 
+![](https://github.com/Freddychu222/AlarmBot/blob/main/img/11.PNG?raw=true)
 
 ## Website
 ![](https://github.com/Freddychu222/AlarmBot/blob/main/img/5.PNG?raw=true)
