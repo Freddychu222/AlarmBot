@@ -1,4 +1,3 @@
-
 //ready data
 let time0 = 1200;
 let msg0 = "Hello there";
