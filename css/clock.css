@@ -4,7 +4,8 @@ body {background-color:#2d2d2d;}
   font: small-caps lighter 43px/150% "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
   text-align:left;
   width: 50%;
-  align: center;
+  margin-left: auto;
+  margin-right: auto;
   color:#fff;
   border-left: 4px solid #630b3d;
   padding: 20px;
