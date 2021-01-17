@@ -120,11 +120,11 @@
   <h1>Set Alarm</h1>
 -->
 <p align="center">
-    Set your alarm here! <input id="timebox" type="number"></input> <br><br>
-    Set your message here! <input id="msgbox" type="test"></input> <br><br>
+    Set the alarm! <input id="timebox" type="number"></input> <br><br>
+    Send your message! <input id="msgbox" type="test"></input> <br><br>
     <br><br>
-    <button id="Set">SET</button>
-    <button id="msg">MSG</button>
+    <button id="Set">Set Alarm</button>
+    <button id="msg">Send Message</button>
     <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-auth.js"></script>
 		<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-database.js"></script>
@@ -143,13 +143,20 @@
         measurementId: "G-9NC4H8KSC1"
       };
       firebase.initializeApp(firebaseConfig);
-//
+//ready data
       var time0, msg0;
       function Ready() {
         time0 = document.getElementById('timebox').value;
         msg0 = document.getElementById('msgbox').value
       }
-
+//process
+      document.getElementById('insert').onClick = function() {
+        Ready();
+        firebase.database().ref('info'+time0).set({
+          AlarmSet: time0,
+          MsgSet: msg0
+        });
+      }
 </p>
 
 </div>
