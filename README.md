@@ -52,17 +52,18 @@ The code that runs on AlarmBot is under the respective Bot Module and Alarm Modu
 
 ##Libraries Used
 ![](https://github.com/Freddychu222/AlarmBot/blob/main/img/11.PNG?raw=true)
+
 * [IOXhop_FirebaseESP32](https://github.com/ioxhop/IOXhop_FirebaseESP32)
-* [MFRC522](https://github.com/miguelbalboa/rfid) \*
+* [MFRC522](https://github.com/miguelbalboa/rfid)
 * [ArduinoJson](https://arduinojson.org/)
 * Adafruit SSD1306 (for OLED)
 * Adafruit GFX (for OLED)
 * AdafruitBusIO
 * Adafriut SSD1306
-*ESP32 AnalogWrite \*
+*ESP32 AnalogWrite
 *[SevSeg] (https://www.arduino.cc/reference/en/libraries/sevseg/)
 * pitches (labelled notes for ease of use with speaker)
-\*Libraries were edited to work for the ESP32
+
 
 ## Website
 ![](https://github.com/Freddychu222/AlarmBot/blob/main/img/5.PNG?raw=true)
