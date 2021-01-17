@@ -1,6 +1,6 @@
 
 //ready data
-let time0 = 12:00;
+let time0 = 1200;
 let msg0 = "Hey there";
 function Ready() {
   time0 = document.getElementById('timebox').value;
