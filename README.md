@@ -16,6 +16,7 @@ AlarmBot is a practical wake up system that stops you from snoozing the morning 
 
 ## Hardware Design
 ![](https://github.com/Freddychu222/AlarmBot/blob/main/img/8.PNG?raw=true)
+
 From of the parts provided in the audiovisual box and base set, we utilized the esp32 microcontroller, OLED display, 7-segment display, audio transducer, and RGB LED in our design.
 
 After fully utilizing the parts of the AV box, we used additional parts to make our vision become reality such as nRF radio modules, an Arduino nano, a speaker, 2 gear-motors, and an H-bridge.
@@ -23,10 +24,14 @@ After fully utilizing the parts of the AV box, we used additional parts to make 
 The bot portion of our design is controlled by the ESP32 microcontroller and interfaces with an nRF radio using a modified SPI library in order to communicate with the clock module. The OLED display is connected via I2C, the H-bridge is used to control the motors, and the push button is paired with an RC debouncing circuit.
 
 ## Software Design:
+![](https://github.com/Freddychu222/AlarmBot/blob/main/img/7.PNG?raw=true)
+
 The code that runs on AlarmBot is under the respective Bot Module and Alarm Module folders in the Github repo. The Alarm module was connected to the Bot using two radio modules, implemented on the ESP32 with customized API libraries. By using the Firebase API, we connected the Bot module to a backend database,. This connection was done using the ESP-32 Wi-Fi connection API. The bot module was then connected to the database to a custom made website in HTML/CSS/js. The website is constantly updated by a live clock updated to the millisecond.
 
 ## Parts Used
 ### Alarm Module:
+![](https://github.com/Freddychu222/AlarmBot/blob/main/img/9.PNG?raw=true)
+
 *ESP32
 *OLED Display
 *Audio Piezo transducer
@@ -37,6 +42,8 @@ The code that runs on AlarmBot is under the respective Bot Module and Alarm Modu
 *Tin Can
 
 ### Clock Module:
+![](https://github.com/Freddychu222/AlarmBot/blob/main/img/10.PNG?raw=true)
+
 *Arduino Nano
 *Speaker
 *nRF24 Radio Module
@@ -44,6 +51,7 @@ The code that runs on AlarmBot is under the respective Bot Module and Alarm Modu
 *Cardboard Box
 
 ##Libraries Used
+![](https://github.com/Freddychu222/AlarmBot/blob/main/img/11.PNG?raw=true)
 * [IOXhop_FirebaseESP32](https://github.com/ioxhop/IOXhop_FirebaseESP32)
 * [MFRC522](https://github.com/miguelbalboa/rfid) \*
 * [ArduinoJson](https://arduinojson.org/)
