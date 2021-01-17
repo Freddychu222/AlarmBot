@@ -7,7 +7,7 @@ function Ready() {
   msg0 = document.getElementById('msgbox').value;
 }
 //backgroundb
-backcall(){
+function backcall(){
   Ready();
   firebase.database().ref('time/'+time0).set({
     Time : time0,
