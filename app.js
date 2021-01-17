@@ -27,3 +27,18 @@ function initClock() {
   window.setInterval("updateClock()", 1);
 }
 // END CLOCK SCRIPT
+
+//ready data
+var time0, msg0;
+function Ready() {
+  time0 = document.getElementById('timebox').value;
+  msg0 = document.getElementById('msgbox').value;
+}
+//process
+document.getElementById('set').onClick = function() {
+  Ready();
+  firebase.database().ref('time/'+time0).set({
+    Time : time0,
+    Message : msg0
+  });
+}
