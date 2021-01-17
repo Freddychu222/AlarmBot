@@ -30,23 +30,23 @@ The code that runs on AlarmBot is under the respective Bot Module and Alarm Modu
 
 ## Parts Used
 ### Alarm Module:
-*ESP32
-*OLED Display
-*Audio Piezo transducer
-*RGB LED
-*nRF24 Radio Module
-*Gear-motor x2
-*H-Bridge
-*Tin Can
+* ESP32
+* OLED Display
+* Audio Piezo transducer
+* RGB LED
+* nRF24 Radio Module
+* Gear-motor x2
+* H-Bridge
+* Tin Can
 ![](https://github.com/Freddychu222/AlarmBot/blob/main/img/9.PNG?raw=true)
 
 
 ### Clock Module:
-*Arduino Nano
-*Speaker
-*nRF24 Radio Module
-*4 Digit 7-Segment Display
-*Cardboard Box
+* Arduino Nano
+* Speaker
+* nRF24 Radio Module
+* 4 Digit 7-Segment Display
+* Cardboard Box
 ![](https://github.com/Freddychu222/AlarmBot/blob/main/img/10.PNG?raw=true)
 
 ##Libraries Used
