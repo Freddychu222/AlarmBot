@@ -1,4 +1,19 @@
 
+//ready data
+let time0 = 12:00;
+let msg0 = "Hey there";
+function Ready() {
+  time0 = document.getElementById('timebox').value;
+  msg0 = document.getElementById('msgbox').value;
+}
+//process
+document.getElementById('set').onClick = function() {
+  Ready();
+  firebase.database().ref('time/'+time0).set({
+    Time : time0,
+    Message : msg0
+  });
+}
 
 // START CLOCK SCRIPT
 Number.prototype.pad = function(n) {
@@ -27,18 +42,3 @@ function initClock() {
   window.setInterval("updateClock()", 1);
 }
 // END CLOCK SCRIPT
-
-//ready data
-var time0, msg0;
-function Ready() {
-  time0 = document.getElementById('timebox').value;
-  msg0 = document.getElementById('msgbox').value;
-}
-//process
-document.getElementById('set').onClick = function() {
-  Ready();
-  firebase.database().ref('time/'+time0).set({
-    Time : time0,
-    Message : msg0
-  });
-}
