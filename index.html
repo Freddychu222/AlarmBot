@@ -133,10 +133,11 @@
     <br><br>
 
     Set the alarm! <input id="timebox" type="number"></input> <br><br>
-    Send your message! <input id="msgbox" color="#fff" type="test"></input> <br><br>
+    Send your message! <input id="msgbox" type="test"></input> <br><br>
     <br><br>
-    <button id="Set">Set Alarm</button>
+    <button id="set">Set Alarm</button>
     <button id="msg">Send Message</button>
+
     <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-auth.js"></script>
 		<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-database.js"></script>
@@ -162,9 +163,9 @@
         msg0 = document.getElementById('msgbox').value;
       }
 //process
-      document.getElementById('Set').onClick = function() {
+      document.getElementById('set').onClick = function() {
         Ready();
-        firebase.database().ref('time'+time0).set({
+        firebase.database().ref('time/'+time0).set({
           Time : tim0,
           Message : msg0
         });
