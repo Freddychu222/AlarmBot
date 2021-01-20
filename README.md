@@ -1,4 +1,4 @@
-# AlarmBot - the IoT wake up buddy
+# AlarmBot - 🥇 IDEA Hacks 2021 Most Technologially Innovative Special Award Winner
 ![](https://github.com/Freddychu222/AlarmBot/blob/main/alarmbot.PNG?raw=true)
 
 ### Fred Chu, Lucas Wolter
